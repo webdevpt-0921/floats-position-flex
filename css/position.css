@@ -1,0 +1,37 @@
+.parent {
+  border: 1px solid red;
+  height: 200px;
+}
+
+.box {
+  padding: 1.6rem;
+  background-color: seagreen;
+  color: white;
+  border-radius: 6px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.static {
+  position: static;
+}
+
+.move {
+  top: 20px;
+  left: 20px;
+}
+
+.message {
+  bottom: 0;
+  left: 0;
+}

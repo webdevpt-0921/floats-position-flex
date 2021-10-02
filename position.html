@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="css/position.css" />
+  </head>
+  <body>
+    <div class="container relative">
+      <header>
+        <h1>Main</h1>
+      </header>
+      <nav class="mb-20">
+        <a href="/">main</a>
+        <a href="/float.html">float</a>
+        <a href="/position.html">position</a>
+      </nav>
+
+      <section class="parent mb-20">
+        <div class="box relative move">this is position relative</div>
+      </section>
+
+      <section class="parent mb-20">
+        <div class="box absolute move">
+          this is position absolute but no parent with position property applied
+        </div>
+      </section>
+
+      <section class="parent relative mb-20">
+        relative
+        <div class="parent">
+          other div
+          <div class="box absolute move">
+            this is position absolute there is a parent relative
+          </div>
+        </div>
+      </section>
+
+      <section class="parent mb-20">
+        <div class="box fixed message">this is position fixed</div>
+      </section>
+
+      <footer>made with ❤️ ironhack</footer>
+    </div>
+  </body>
+</html>

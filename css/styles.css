@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 4.8rem;
+  margin-bottom: 3.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.container {
+  width: 90vw;
+  max-width: 980px;
+  margin: 0px auto;
+}
+
+.main {
+  margin-top: 1rem;
+}
+
+.card {
+  border: 1px solid #454141;
+  padding: 1rem;
+  border-radius: 6px;
+}
+.sidebar {
+  padding: 1rem;
+  background-color: cornsilk;
+  border-radius: 6px;
+  margin-top: 1.5rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mb-20 {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 420px) {
+  .main {
+    display: flex;
+    gap: 1rem;
+  }
+  .section {
+    width: 80%;
+  }
+  .sidebar {
+    width: 20%;
+    margin-top: 0px;
+  }
+}
